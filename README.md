@@ -31,8 +31,18 @@ This project is a FastAPI application that serves a Stable Diffusers model over 
     ```
 - Run the following CURL command:
     ```bash
-    curl -X GET "localhost:8000/api/generate" -H "Content-Type: image/png"
+    curl -X GET "localhost:8000/api/generate" -H "Content-Type: image/png" -d '{"image": "https://huggingface.co/front/thumbnails/stable_diffusion.png"}'
     ```
+ - Change to the frontend folder:
+    ```bash
+    cd ../frontend
+    ```
+- Install front end dependencies and start the server:
+    ```bash
+    npm install
+    npm start
+    ```
+    
 ## Crux: ML Engineer
 
 ### Fine tune a Stable Diffusion model and serve it
