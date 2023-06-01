@@ -19,7 +19,7 @@ This project is a FastAPI application that serves a Stable Diffusers model over 
     ```
 - Open the .env file, and paste your HF token:
     ```bash
-    HF_TOKEN=YOUR_TOKEN
+    HF_TOKEN=YOUR_TOKEN {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}
     ```
 - Install requirements:
     ```bash
